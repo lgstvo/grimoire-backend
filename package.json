@@ -1,0 +1,29 @@
+{
+  "name": "grimoire-backend",
+  "version": "1.0.0",
+  "description": "Online Grimoire based on GorillaOfDestiny's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node prisma/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgstvo/grimoire-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgstvo/grimoire-backend/issues"
+  },
+  "homepage": "https://github.com/lgstvo/grimoire-backend#readme",
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "prisma": "^6.8.2",
+    "sqlite3": "^5.1.7"
+  }
+}
+
