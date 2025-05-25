@@ -8,4 +8,4 @@ else
   input=$(cat)
 fi
 
-echo "$input" | tr -d "\n\r" < test.txt | tr -d " " | sed 's/,\[/,\n\t\t[/g' | sed 's/{\"/{\n\t\"/g' | sed 's/,\"/,\n\t\"/g' | sed 's/}/\n}\n/g'
+echo "$input" | tr -d "\n\r" < dummy.txt | tr -d " " | sed 's/,\[/,\n\t\t[/g' | sed 's/{\"/{\n\t\"/g' | sed 's/,\"/,\n\t\"/g' | sed 's/}/\n}\n/g'

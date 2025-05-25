@@ -8,7 +8,7 @@ const prisma = new PrismaClient();
 app.use(cors());
 app.use(express.json());
 
-app.get('/canvasState', async (req, res) => {
+app.post('/canvasState', async (req, res) => {
 	const { matrix, centerPointState } = req.body;
 
 	if (!matrix || centerPointState === undefined) {
